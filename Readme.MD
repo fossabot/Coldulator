@@ -7,4 +7,3 @@ Questo è un semplice calcolatore per la dispersione termica di una stanza a for
 3. Implementare logica per gestire finestre
 4. Implementare logica per gestire pareti di più materiali.
 5. Implementare logica per gestire pareti "consecutive".
-6. Migliorare l'interfaccia grafica

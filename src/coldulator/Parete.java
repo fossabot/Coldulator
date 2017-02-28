@@ -21,7 +21,7 @@ public class Parete {
         this.coefficiente = a;
         this.tempInterna = b;
         this.tempEsterna = c;
-        this.deltaT = c- b;
+        this.deltaT = c - b;
         this.superficie = d;
         this.spessore = e;
     }
