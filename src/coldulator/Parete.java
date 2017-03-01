@@ -17,18 +17,25 @@ public class Parete {
     public double superficie;
     public double spessore;
     
-    public Parete(double a, int b, int c, double d, double e){
-        this.coefficiente = a;
-        this.tempInterna = b;
-        this.tempEsterna = c;
-        this.deltaT = b - c;
-        this.superficie = d;
-        this.spessore = e;
+    public double superficieInfissi;
+    public double spessoreInfissi;
+    public double coeffInfissi;
+    
+    
+    public Parete(double coefficiente, int tempInterna, int tempEsterna, double superficie, double spessore, double superficieInfissi, double spessoreInfissi, double coeffInfissi){
+        this.superficieInfissi = superficieInfissi;
+        this.spessoreInfissi = spessoreInfissi;
+        this.coeffInfissi = coeffInfissi;
+        
+        this.coefficiente = coefficiente;
+        this.tempInterna = tempInterna;
+        this.tempEsterna = tempEsterna;
+        this.deltaT = tempInterna - tempEsterna; 
+        this.superficie = superficie - superficieInfissi;
+        this.spessore = spessore;
     }
     
     public double calcDispersione(int t){
-        double dispersione;
-        dispersione = (this.coefficiente * this.deltaT * this.superficie*t)/this.spessore;
-        return dispersione;
+       return ((this.coefficiente * this.deltaT * this.superficie * t) / this.spessore) - ((this.coeffInfissi * this.deltaT * this.superficieInfissi * t) / this.spessoreInfissi) ;
     }
 }
