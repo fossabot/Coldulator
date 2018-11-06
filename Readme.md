@@ -1,4 +1,4 @@
-#Coldulator
+# Coldulator
 Questo è un semplice calcolatore per la dispersione termica di una stanza a forma di parallelepipedo. Tiene conto di diversi materiali, ma aprendo il codice è abbastanza semplice aggiungerne di nuovi.
 
 ## Cose da fare (In ordine di priorità)
