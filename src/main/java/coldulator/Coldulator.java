@@ -6,7 +6,6 @@ import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
-<<<<<<< HEAD
 import javafx.scene.layout.GridPane;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
@@ -15,7 +14,6 @@ import javafx.scene.control.ComboBox;
 import javafx.stage.Stage;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-=======
 import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
 import javafx.scene.text.Text;
@@ -27,8 +25,6 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import javafx.scene.layout.GridPane;
 
->>>>>>> 42aed24d6e2af050f6172c92c2fddba159ee67dc
-
 public class Coldulator extends Application{
   public static void main(String[] args) {
     launch(args);
@@ -36,22 +32,18 @@ public class Coldulator extends Application{
 
   @Override
   public void start(Stage primaryStage) {
-<<<<<<< HEAD
     primaryStage.setTitle("Coldulator");
 
     // Creating the main grid
     GridPane grid = new GridPane();
     grid.setAlignment(Pos.TOP_LEFT);
-=======
     primaryStage.setTitle("JavaFX Welcome");
     GridPane grid = new GridPane();
     grid.setAlignment(Pos.CENTER);
->>>>>>> 42aed24d6e2af050f6172c92c2fddba159ee67dc
     grid.setHgap(10);
     grid.setVgap(10);
     grid.setPadding(new Insets(25, 25, 25, 25));
 
-<<<<<<< HEAD
     // Creating the Image
     Image scheme = new Image("/dimensions.png", true);
     ImageView showScheme = new ImageView();
@@ -120,9 +112,8 @@ public class Coldulator extends Application{
 
     Scene scene = new Scene(grid, 640, 480);
     scene.getStylesheets().add("/style.css");
-=======
+
     Scene scene = new Scene(grid, 800, 600);
->>>>>>> 42aed24d6e2af050f6172c92c2fddba159ee67dc
     primaryStage.setScene(scene);
     primaryStage.show();
 

@@ -12,5 +12,3 @@ Questo è un semplice calcolatore per la dispersione termica di una stanza a for
 
 ## Credits
 Background created by Kues1 - Freepik.com
-=======
->>>>>>> 42aed24d6e2af050f6172c92c2fddba159ee67dc:Readme.md

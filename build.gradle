@@ -8,9 +8,12 @@ repositories {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 dependencies {
   compile group: 'org.json', name: 'json', version: '20180813'
 }
+=======
+>>>>>>> 42aed24d6e2af050f6172c92c2fddba159ee67dc
 =======
 >>>>>>> 42aed24d6e2af050f6172c92c2fddba159ee67dc
 

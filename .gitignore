@@ -36,8 +36,4 @@ gradle-app.setting
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
-<<<<<<< HEAD
-
 OldCode/
-=======
->>>>>>> 42aed24d6e2af050f6172c92c2fddba159ee67dc
