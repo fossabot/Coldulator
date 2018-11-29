@@ -1,0 +1,23 @@
+apply plugin: 'java'
+apply plugin: 'application'
+mainClassName = 'coldulator.Coldulator'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+<<<<<<< HEAD
+dependencies {
+  compile group: 'org.json', name: 'json', version: '20180813'
+}
+=======
+>>>>>>> 42aed24d6e2af050f6172c92c2fddba159ee67dc
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+jar {
+    baseName = 'Coldulator'
+    version =  '0.0.1r'
+}
