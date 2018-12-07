@@ -1,29 +1,34 @@
+// Copyright (c) 2018 Zekromaster
+//
+// GNU GENERAL PUBLIC LICENSE
+//    Version 3, 29 June 2007
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
 package coldulator;
 
 import javafx.application.Application;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.layout.GridPane;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
-import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.stage.Stage;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javafx.scene.control.Button;
-import javafx.scene.layout.StackPane;
-import javafx.scene.text.Text;
-import javafx.scene.text.Font;
-import javafx.scene.text.FontWeight;
-import javafx.scene.control.PasswordField;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
-import javafx.stage.Stage;
-import javafx.scene.layout.GridPane;
 
 public class Coldulator extends Application{
   public static void main(String[] args) {
@@ -38,7 +43,6 @@ public class Coldulator extends Application{
     GridPane grid = new GridPane();
     grid.setAlignment(Pos.TOP_LEFT);
     primaryStage.setTitle("JavaFX Welcome");
-    GridPane grid = new GridPane();
     grid.setAlignment(Pos.CENTER);
     grid.setHgap(10);
     grid.setVgap(10);
@@ -112,8 +116,6 @@ public class Coldulator extends Application{
 
     Scene scene = new Scene(grid, 640, 480);
     scene.getStylesheets().add("/style.css");
-
-    Scene scene = new Scene(grid, 800, 600);
     primaryStage.setScene(scene);
     primaryStage.show();
 
