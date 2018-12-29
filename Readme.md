@@ -1,5 +1,5 @@
 # Coldulator
-Questo è un semplice calcolatore per la dispersione termica di una stanza a forma di parallelepipedo. Tiene conto di diversi materiali, ma aprendo il codice è abbastanza semplice aggiungerne di nuovi.
+Questo è un semplice calcolatore per la dispersione termica di una stanza a forma di parallelepipedo. Acquisisce una lista di materiali da un file .json formattato come il file "materials.json" presente nella repo (che già contiene svariati materiali).
 
 ## Cose da fare (In ordine di priorità)
 1. Rendere personalizzabile la lista dei materiali attraverso un file esterno

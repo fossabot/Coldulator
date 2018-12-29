@@ -1,0 +1,318 @@
+[
+  {
+    "nome": "Carbone in polvere",
+    "coefficiente": 0.12
+  },
+  {
+    "nome": "Cemento in polvere",
+    "coefficiente": 0.07
+  },
+  {
+    "nome": "Sodio liquido 100 - 500° C",
+    "coefficiente": 86
+  },
+  {
+    "nome": "Marmo",
+    "coefficiente": 2.1
+  },
+  {
+    "nome": "Glicerina",
+    "coefficiente": 0.22
+  },
+  {
+    "nome": "Pietra arenaria",
+    "coefficiente": 1.3
+  },
+  {
+    "nome": "Zinco",
+    "coefficiente": 110
+  },
+  {
+    "nome": "Sodio solido",
+    "coefficiente": 125.6
+  },
+  {
+    "nome": "Ottone",
+    "coefficiente": 70
+  },
+  {
+    "nome": "Duralluminio",
+    "coefficiente": 160
+  },
+  {
+    "nome": "Mercurio liquido a 160° C",
+    "coefficiente": 11.6
+  },
+  {
+    "nome": "Pietra calcare granulosa",
+    "coefficiente": 0.95
+  },
+  {
+    "nome": "Aria (in quiete a 20°C)",
+    "coefficiente": 0.03
+  },
+  {
+    "nome": "Alcool",
+    "coefficiente": 0.21
+  },
+  {
+    "nome": "Intonaco di calce e gesso",
+    "coefficiente": 0.7
+  },
+  {
+    "nome": "Caucciù",
+    "coefficiente": 0.13
+  },
+  {
+    "nome": "Linoleum",
+    "coefficiente": 0.18
+  },
+  {
+    "nome": "Mercurio liquido a 120° C",
+    "coefficiente": 10.92
+  },
+  {
+    "nome": "Sabbia con 7% di umidità",
+    "coefficiente": 1.16
+  },
+  {
+    "nome": "Mercurio liquido a 60° C",
+    "coefficiente": 9.64
+  },
+  {
+    "nome": "Ferro elettrolitico",
+    "coefficiente": 87
+  },
+  {
+    "nome": "Mercurio liquido a 0° C",
+    "coefficiente": 8.13
+  },
+  {
+    "nome": "Muratura di pietrame",
+    "coefficiente": 1.4
+  },
+  {
+    "nome": "Ferro ed acciaio",
+    "coefficiente": 46.5
+  },
+  {
+    "nome": "Nichel",
+    "coefficiente": 58
+  },
+  {
+    "nome": "Basalto",
+    "coefficiente": 1.27
+  },
+  {
+    "nome": "Cellulosa compressa",
+    "coefficiente": 0.24
+  },
+  {
+    "nome": "Mercurio liquido a 222° C",
+    "coefficiente": 12.78
+  },
+  {
+    "nome": "Cenere",
+    "coefficiente": 0.069
+  },
+  {
+    "nome": "Alluminio",
+    "coefficiente": 210
+  },
+  {
+    "nome": "Pb 44.5% + Bi 55.5% (lega liq.) 160 - 320° C",
+    "coefficiente": 9.2
+  },
+  {
+    "nome": "Mica",
+    "coefficiente": 0.39
+  },
+  {
+    "nome": "Granito",
+    "coefficiente": 3.18
+  },
+  {
+    "nome": "Sughero (200 Kg/m3)",
+    "coefficiente": 0.052
+  },
+  {
+    "nome": "Argento",
+    "coefficiente": 420
+  },
+  {
+    "nome": "Grafite",
+    "coefficiente": 4.9
+  },
+  {
+    "nome": "Carbone",
+    "coefficiente": 0.14
+  },
+  {
+    "nome": "Creta",
+    "coefficiente": 0.9
+  },
+  {
+    "nome": "Asfalto",
+    "coefficiente": 0.64
+  },
+  {
+    "nome": "Gesso",
+    "coefficiente": 0.4
+  },
+  {
+    "nome": "Legno asciutto ortogonale alle fibre di quercia",
+    "coefficiente": 0.18
+  },
+  {
+    "nome": "Neve (moderatamente compatta. strati da 7 a 10 cm)",
+    "coefficiente": 0.23
+  },
+  {
+    "nome": "Sabbia asciutta",
+    "coefficiente": 0.35
+  },
+  {
+    "nome": "Acciaio con 30% Ni",
+    "coefficiente": 105
+  },
+  {
+    "nome": "Neve (appena caduta e per strati fino a 3 cm)",
+    "coefficiente": 0.06
+  },
+  {
+    "nome": "Oro",
+    "coefficiente": 299
+  },
+  {
+    "nome": "Ghisa",
+    "coefficiente": 50
+  },
+  {
+    "nome": "Celluloide",
+    "coefficiente": 0.35
+  },
+  {
+    "nome": "Rame (8900 Kg/m3)",
+    "coefficiente": 395
+  },
+  {
+    "nome": "Acqua (liquida in quiete a 20°C)",
+    "coefficiente": 0.63
+  },
+  {
+    "nome": "Carbone di storta",
+    "coefficiente": 4
+  },
+  {
+    "nome": "Cartongesso in lastre",
+    "coefficiente": 0.21
+  },
+  {
+    "nome": "Acciaio con 5% Ni",
+    "coefficiente": 29
+  },
+  {
+    "nome": "Acqua pesante 10 - 100°C",
+    "coefficiente": 0.56
+  },
+  {
+    "nome": "Muratura refrattaria (dinas. schamotte. silica) 200° C",
+    "coefficiente": 0.7
+  },
+  {
+    "nome": "Argentana",
+    "coefficiente": 27
+  },
+  {
+    "nome": "Stagno",
+    "coefficiente": 64
+  },
+  {
+    "nome": "Bronzo",
+    "coefficiente": 58
+  },
+  {
+    "nome": "Rame (8300 Kg/m3)",
+    "coefficiente": 302
+  },
+  {
+    "nome": "Manganina",
+    "coefficiente": 23
+  },
+  {
+    "nome": "Cartone",
+    "coefficiente": 0.14
+  },
+  {
+    "nome": "Quarzo parallelo all’asse",
+    "coefficiente": 12.8
+  },
+  {
+    "nome": "Legno asciutto ortogonale alle fibre di abete e pino",
+    "coefficiente": 0.1
+  },
+  {
+    "nome": "Piombo solido",
+    "coefficiente": 35
+  },
+  {
+    "nome": "Oli e petroli",
+    "coefficiente": 0.12
+  },
+  {
+    "nome": "Zolfo",
+    "coefficiente": 0.23
+  },
+  {
+    "nome": "Vetro",
+    "coefficiente": 0.5
+  },
+  {
+    "nome": "Muratura refrattaria (dinas. schamotte. silica) 1000° C",
+    "coefficiente": 1.2
+  },
+  {
+    "nome": "Neve (soffice. strati da 3 a 7 cm)",
+    "coefficiente": 0.12
+  },
+  {
+    "nome": "Platino",
+    "coefficiente": 70
+  },
+  {
+    "nome": "Ghiaccio",
+    "coefficiente": 2.2
+  },
+  {
+    "nome": "Naftalina",
+    "coefficiente": 0.37
+  },
+  {
+    "nome": "Porcellana",
+    "coefficiente": 0.8
+  },
+  {
+    "nome": "Incrostazioni di caldaia",
+    "coefficiente": 1.16
+  },
+  {
+    "nome": "Legno asciutto parallelamente alle fibre",
+    "coefficiente": 0.15
+  },
+  {
+    "nome": "Neve (compatta. strati da 20 a 40 cm)",
+    "coefficiente": 0.7
+  },
+  {
+    "nome": "Pietra calcare compatta",
+    "coefficiente": 0.7
+  },
+  {
+    "nome": "Quarzo ortogonale all’asse",
+    "coefficiente": 6.6
+  },
+  {
+    "nome": "Quarzo oggetti fusi",
+    "coefficiente": 1.4
+  }
+]

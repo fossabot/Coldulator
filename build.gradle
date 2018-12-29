@@ -1,5 +1,6 @@
 apply plugin: 'java'
 apply plugin: 'application'
+apply plugin: 'eclipse'
 mainClassName = 'coldulator.Coldulator'
 
 repositories {
@@ -16,5 +17,13 @@ targetCompatibility = 1.8
 
 jar {
     baseName = 'Coldulator'
-    version =  '0.0.1r'
+    version =  '0.1.0'
+    manifest {
+      attributes(
+              'Main-Class': 'coldulator.Coldulator'
+      )
+    }
+    from {
+      configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
 }
