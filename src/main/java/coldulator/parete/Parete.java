@@ -20,8 +20,6 @@ package coldulator.parete;
 
 public class Parete {
     private double coefficiente;
-    private double tempInterna;
-    private double tempEsterna;
     private double superficieTotale;
     private double spessore;
 
@@ -30,43 +28,32 @@ public class Parete {
     private double coeffInfissi;
 
 
-    public Parete(double coefficiente, double tempInterna, double tempEsterna, double superficieTotale, double spessore, double superficieInfissi, double spessoreInfissi, double coeffInfissi){
+    public Parete(double coefficiente, double superficieTotale, double spessore, double superficieInfissi, double spessoreInfissi, double coeffInfissi){
         this.superficieInfissi = superficieInfissi;
         this.spessoreInfissi = spessoreInfissi;
         this.coeffInfissi = coeffInfissi;
 
         this.coefficiente = coefficiente;
-        this.tempInterna = tempInterna;
-        this.tempEsterna = tempEsterna;
         this.superficieTotale = superficieTotale;
         this.spessore = spessore;
     }
 
-    public Parete(double coefficiente, double tempInterna, double tempEsterna, double superficieTotale, double spessore){
+    public Parete(double coefficiente, double superficieTotale, double spessore){
       this.superficieInfissi = 0;
       this.spessoreInfissi = 1;
       this.coeffInfissi = 0;
 
       this.coefficiente = coefficiente;
-      this.tempInterna = tempInterna;
-      this.tempEsterna = tempEsterna;
       this.superficieTotale = superficieTotale;
       this.spessore = spessore;
-    }
-
-    public double getDeltaT(){
-      return this.tempInterna - this.tempEsterna;
     }
 
     private double getSuperficie(){
       return this.superficieTotale - this.superficieInfissi;
     }
 
-    public double getDispersione(int t){
-      return ((this.coefficiente * this.getDeltaT() * this.getSuperficie() * t) / this.spessore) + ((this.coeffInfissi * this.getDeltaT() * this.superficieInfissi * t) / this.spessoreInfissi) ;
-    }
-
-    public boolean isDisperso(){
-      return (this.tempInterna > this.tempEsterna);
+    public double getDispersione(int t, double deltaT){
+      return ((this.coefficiente * deltaT * this.getSuperficie() * t) / this.spessore) +
+             ((this.coeffInfissi * deltaT * this.superficieInfissi * t) / this.spessoreInfissi) ;
     }
 }
